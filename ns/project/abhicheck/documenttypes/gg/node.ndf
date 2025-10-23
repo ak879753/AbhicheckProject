@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1761189124824</number>
         <value name="lastModifiedBy">Abhishek.Kumar147@ibm.com</value>
         <value name="lastModifiedByUserId">3a6bf95e399f404b9e08f41b0e48c58c</value>
-        <number name="lastModifiedDate" type="Long">1761189124827</number>
+        <number name="lastModifiedDate" type="Long">1761189129876</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">756a1f2e56f647a18b0612df646d8a3f</value>
+    <value name="schemaDomain">70eb9d99baec4d4b875b3366ec0c549d</value>
     <value name="originURI">purchageorder.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">tns:comment</value>
         <value name="field_type">string</value>
@@ -52,6 +58,12 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">project.abhicheck.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">tns:purchaseOrder</value>
         <value name="field_type">recref</value>
